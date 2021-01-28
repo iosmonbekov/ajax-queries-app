@@ -1,3 +1,7 @@
+body {
+  background: rgb(53, 51, 50);
+  color: white;
+}
 .container {
     max-width: 600px;
     padding: 10px;
@@ -7,6 +11,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: 3px solid rgb(19, 17, 17);
+    border-radius: 10px;
+    border-top-width: 3px !important;
 }
 .spiner {
     margin: 0 auto;
@@ -20,6 +29,32 @@
 .line-th {
     text-decoration: line-through;
 }
+.form-control {
+  background-color: transparent;
+  border: 3px solid #000;
+}
+.form-control:hover {
+  background: transparent;
+  color: white
+}
+.btn-outline-secondary {
+  border: 3px solid #000;
+  margin-left: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Spiner  */
 .lds-roller {
